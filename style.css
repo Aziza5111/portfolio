@@ -8,7 +8,7 @@
 ul,
 ol,
 li {
-  list-style-type: disc !important;
+  list-style-type: none;
 }
 
 a {
@@ -353,7 +353,6 @@ header {
     display: flex;
     flex-direction: row;
     gap: 50px;
-
     flex-wrap: wrap;
     justify-content: space-between;
     /* width: 365px; */
@@ -367,7 +366,51 @@ header {
 }
 
 /* experince start */
+.experience {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  margin: 96px;
+  background-color: #f5f7f9;
+}
 
+.experience span {
+  padding: 2px 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: #4b5563;
+  background-color: #ccc9c9;
+  border-radius: 50px;
+  display: inline;
+}
+.experiense {
+  text-align: center;
+  margin-top: 50px;
+}
+.summary {
+  margin-top: 20px;
+  text-align: center;
+  color: #4b5563;
+}
+
+.box1,
+.box2,
+.box3 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  margin-top: 50px;
+  padding: 32px;
+  background-color: #fff;
+}
+
+.work-status {
+  margin: 0px 100px;
+  list-style-type: disc;
+}
+.work-status ul {
+  margin-top: 32px;
+}
 /* experince end */
 
 .portfolio {
@@ -402,7 +445,7 @@ header {
 .fiskil {
   display: flex;
   justify-content: space-between;
-  border: 3px solid black;
+  border: 1px solid rgb(244, 237, 237);
   border-radius: 50px;
   margin: 50px;
   color: #4b5563;
@@ -417,9 +460,10 @@ header {
   align-items: start;
 }
 
-.fiskil-languages p {
+.fiskil-languages li {
+  display: inline;
   background-color: #4b55632f;
   color: #4b5563;
-  padding: 2px 15;
+  padding: 2px 15px;
   border-radius: 50px;
 }
