@@ -227,7 +227,7 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 70px;
-  margin-top: 96px;
+  margin: 96px;
 }
 
 .aboutme p {
@@ -369,8 +369,8 @@ header {
 .experience {
   display: flex;
   justify-content: center;
-  padding-top: 70px;
-  margin: 96px;
+  padding: 70px;
+  margin: 96px 80px;
   background-color: #f5f7f9;
 }
 
@@ -410,6 +410,12 @@ header {
 }
 .work-status ul {
   margin-top: 32px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.work-status ul li {
+  margin: 8px 0;
 }
 /* experince end */
 
@@ -417,7 +423,7 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 70px;
-  margin: 96px;
+  margin: 96px 80px;
 }
 
 .portfol {
@@ -446,17 +452,18 @@ header {
   display: flex;
   justify-content: space-between;
   border: 1px solid rgb(244, 237, 237);
-  border-radius: 50px;
+  border-radius: 12px;
   margin: 50px;
   color: #4b5563;
 }
 
 .fiskil img {
-  border: 48px solid #f8f2f2;
+  border: 48px solid #f1f1f1;
+  border-radius: 2%;
 }
 
 .fiskil h1 {
-  margin: 48px;
+  margin: 30px;
   align-items: start;
 }
 
@@ -466,4 +473,51 @@ header {
   color: #4b5563;
   padding: 2px 15px;
   border-radius: 50px;
+}
+
+/* Testimional start */
+
+.testimionals {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  margin: 96px 80px;
+}
+
+.testimional {
+  display: block;
+  text-align: center;
+  margin: 50px;
+  background-color: #f5f7f9;
+}
+.testimion span {
+  padding: 2px 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: #4b5563;
+  background-color: #ccc9c9;
+  border-radius: 50px;
+}
+
+.nice {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  background-color: #f5f7f9;
+  margin: 96px 112px;
+}
+.vector {
+  border: 1px;
+  background-color: #fff;
+  margin: 48px;
+}
+.nice img {
+  background-color: #9ca3af;
+  border: 1px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.nice p {
+  margin: 48px;
 }
