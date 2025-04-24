@@ -428,15 +428,17 @@ header {
 
 .portfol {
   display: block;
-  text-align: center;
   margin-top: 50px;
   color: #4b5563;
+}
+
+.portfo {
+  text-align: center;
 }
 
 .portfo span {
   padding: 2px 15px;
   margin-top: 20px;
-  text-align: center;
   color: #4b5563;
   background-color: #ccc9c9;
   border-radius: 50px;
@@ -457,38 +459,56 @@ header {
   color: #4b5563;
 }
 
+.fiskil-text {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .fiskil img {
   border: 48px solid #f1f1f1;
   border-radius: 2%;
 }
 
 .fiskil h1 {
-  margin: 30px;
-  align-items: start;
+  margin: 30px 0 0;
+  display: flex;
+}
+
+.fiskil .second-h1 {
+  display: block;
+  text-align: end;
 }
 
 .fiskil-languages li {
-  display: inline;
+  display: inline-block;
   background-color: #4b55632f;
   color: #4b5563;
   padding: 2px 15px;
   border-radius: 50px;
+  margin: 4px 0;
+}
+
+.fa-arrow-up-right-from-square {
+  display: inline-block;
+  margin: 30px 0 0;
 }
 
 /* Testimional start */
 
-.testimionals {
+.testimonials {
   display: flex;
   justify-content: center;
-  padding-top: 70px;
   margin: 96px 80px;
+  padding: 50px 0;
+  background-color: #e1dcdc;
 }
 
 .testimional {
   display: block;
   text-align: center;
   margin: 50px;
-  background-color: #f5f7f9;
 }
 .testimion span {
   padding: 2px 15px;
@@ -502,22 +522,23 @@ header {
 .nice {
   display: flex;
   justify-content: space-between;
-  gap: 48px;
-  background-color: #f5f7f9;
-  margin: 96px 112px;
+  gap: 5px;
 }
 .vector {
   border: 1px;
   background-color: #fff;
-  margin: 48px;
+  width: 30%;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 30px 0 0;
 }
+
 .nice img {
   background-color: #9ca3af;
-  border: 1px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 20px 22px;
 }
 
 .nice p {
-  margin: 48px;
+  margin: 5px;
 }
