@@ -235,6 +235,7 @@ header {
   background-color: #4b55632f;
   display: inline-block;
   padding: 2px 15px;
+  color: #4b5563;
 }
 
 .main-me {
@@ -253,10 +254,12 @@ header {
 
 .me p {
   margin-top: 20px;
+  color: #4b5563;
 }
 .list {
   list-style-type: disc !important;
   margin-left: 30px;
+  color: #4b5563;
 }
 
 .list {
@@ -327,11 +330,13 @@ header {
 .first-row {
   display: flex;
   gap: 100px;
+  color: #4b5563;
 }
 
 .second-row {
   display: flex;
   gap: 100px;
+  color: #4b5563;
 }
 
 .first-row div,
@@ -416,6 +421,7 @@ header {
 
 .work-status ul li {
   margin: 8px 0;
+  color: #4b5563;
 }
 /* experince end */
 
@@ -502,7 +508,7 @@ header {
   justify-content: center;
   margin: 96px 80px;
   padding: 50px 0;
-  background-color: #e1dcdc;
+  background-color: #f5f7f9;
 }
 
 .testimional {
@@ -540,5 +546,62 @@ header {
 }
 
 .nice p {
-  margin: 5px;
+  margin: 15px;
+  text-align: start;
+  color: #4b5563;
+}
+
+.nice h3 {
+  padding-top: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 96px 80px;
+  padding: 50px 0;
+}
+
+.touch {
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+.get span {
+  padding: 2px 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: #4b5563;
+  background-color: #ccc9c9;
+  border-radius: 50px;
+}
+
+.gmail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 49px;
+}
+
+.com {
+  font-size: large;
+}
+.gmail i {
+  color: #4b5563;
+  font-weight: 1px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.phone h1 i {
+  color: #4b5563;
+}
+
+.platform {
+  color: #4b5563;
 }
