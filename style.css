@@ -555,6 +555,7 @@ header {
   padding-top: 20px;
 }
 
+/* Contact section start */
 .contact {
   display: flex;
   justify-content: center;
@@ -589,7 +590,6 @@ header {
 }
 .gmail i {
   color: #4b5563;
-  font-weight: 1px;
 }
 
 .phone {
@@ -604,4 +604,20 @@ header {
 
 .platform {
   color: #4b5563;
+  margin-top: 50px;
+}
+
+.icon {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.footer {
+  background-color: #f5f7f9;
+  color: #4b5563;
+  margin-top: 25px;
+}
+.footer span {
+  text-decoration: underline;
 }
