@@ -555,6 +555,10 @@ header {
   padding-top: 20px;
 }
 
+.xyz {
+  text-align: center !important;
+}
+
 /* Contact section start */
 .contact {
   display: flex;
@@ -564,9 +568,9 @@ header {
 }
 
 .touch {
-  display: block;
-  text-align: center;
-  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .get span {
@@ -583,25 +587,42 @@ header {
   align-items: center;
   gap: 15px;
   margin: 49px;
+  font-size: 24px;
 }
 
-.com {
-  font-size: large;
-}
 .gmail i {
   color: #4b5563;
 }
 
 .phone {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 15px;
+  font-size: 24px;
 }
 
-.phone h1 i {
+.phone h1 {
+  justify-content: center;
+}
+
+.phone p i {
   color: #4b5563;
 }
 
+.fa-clone {
+  cursor: pointer;
+}
+
+.number {
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .platform {
   color: #4b5563;
   margin-top: 50px;
@@ -611,13 +632,29 @@ header {
   display: flex;
   gap: 15px;
   margin-top: 8px;
+  text-align: center;
+  justify-content: center;
 }
 
 .footer {
   background-color: #f5f7f9;
   color: #4b5563;
-  margin-top: 25px;
+  padding: 40px 0 20px;
 }
-.footer span {
+/* .footer span {
   text-decoration: underline;
+} */
+
+.footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.copied-gmail,
+.copied-phone {
+  display: none;
 }
